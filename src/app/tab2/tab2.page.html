@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>View Your Progress</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <br>
+        <center><span>Your Data</span>
+            <br>
+            <br>
+            <ion-card-content *ngFor="let person of listOfPeople">
+                {{person.user}} {{person.pass}}
+            </ion-card-content>
+        </center>
+    </ion-card>
+
+</ion-content>

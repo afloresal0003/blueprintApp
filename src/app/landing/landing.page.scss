@@ -1,0 +1,50 @@
+ion-content {
+    color: white;
+    --ion-background-color: #3cadf8;
+}
+
+.title {
+    font-size: 45px;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+.title2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+.small-text {
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ion-toolbar {
+    --ion-background-color: #f5c939;
+}
+
+.logintitle {
+    background-color: #f5c939;
+}
+
+.logo {
+    height: 250px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+.already {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
+}

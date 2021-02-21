@@ -1,0 +1,35 @@
+<ion-header id="tab1Header" [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Select A Workout
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+        <ion-toolbar>
+            <ion-title size="large">Select Workout</ion-title>
+        </ion-toolbar>
+    </ion-header>
+
+    <ion-item button [routerLink]="['/challenge-new']">
+        Core Exercises
+    </ion-item>
+
+    <ion-item button [routerLink]="['/challenge-lower']" class="lower">
+        Lower Body
+    </ion-item>
+
+    <ion-item button [routerLink]="['/challenge-upper']">
+        Upper Body
+    </ion-item>
+
+    <ion-item button [routerLink]="['/challenge-cardio']" class="cardio">
+        Cardo Activity
+    </ion-item>
+
+    <ion-item button [routerLink]="['/challenge-stretch']" class="stretch">
+        Stretching Activities
+    </ion-item>
+</ion-content>

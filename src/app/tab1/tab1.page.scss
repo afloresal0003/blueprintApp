@@ -1,0 +1,35 @@
+ion-content {
+    color: white;
+    --ion-background-color: #3cadf8;
+}
+
+ion-toolbar {
+    color: white;
+    --ion-background-color: #f5c939;
+    text-align: center;
+}
+
+ion-item {
+    color: white;
+    --ion-background-color: #f5c939;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: bottom;
+}
+
+div.upper {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+img {
+    width: 500px;
+    object-fit: fill;
+}
+
+#upper {
+    display: block;
+}

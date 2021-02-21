@@ -1,0 +1,7 @@
+{
+  "name": "fitProject",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
